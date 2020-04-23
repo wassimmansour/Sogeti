@@ -4580,8 +4580,8 @@
     },
     "BL/1.0.0": {
       "type": "project",
-      "path": "../../BL/BL.csproj",
-      "msbuildProject": "../../BL/BL.csproj"
+      "path": "../BL/BL.csproj",
+      "msbuildProject": "../BL/BL.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4622,8 +4622,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\wassi\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\wassi\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\BL\\BL.csproj"
+            "C:\\Users\\wassi\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\wassi\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\BL\\BL.csproj"
             }
           }
         }
