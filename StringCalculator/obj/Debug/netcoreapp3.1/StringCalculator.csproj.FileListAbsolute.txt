@@ -1,0 +1,12 @@
+C:\Users\wassi\Documents\Visual Studio 2019\Projects\StringCalculator\bin\Debug\netcoreapp3.1\StringCalculator.exe
+C:\Users\wassi\Documents\Visual Studio 2019\Projects\StringCalculator\bin\Debug\netcoreapp3.1\StringCalculator.deps.json
+C:\Users\wassi\Documents\Visual Studio 2019\Projects\StringCalculator\bin\Debug\netcoreapp3.1\StringCalculator.runtimeconfig.json
+C:\Users\wassi\Documents\Visual Studio 2019\Projects\StringCalculator\bin\Debug\netcoreapp3.1\StringCalculator.runtimeconfig.dev.json
+C:\Users\wassi\Documents\Visual Studio 2019\Projects\StringCalculator\bin\Debug\netcoreapp3.1\StringCalculator.dll
+C:\Users\wassi\Documents\Visual Studio 2019\Projects\StringCalculator\bin\Debug\netcoreapp3.1\StringCalculator.pdb
+C:\Users\wassi\Documents\Visual Studio 2019\Projects\StringCalculator\obj\Debug\netcoreapp3.1\StringCalculator.csproj.CoreCompileInputs.cache
+C:\Users\wassi\Documents\Visual Studio 2019\Projects\StringCalculator\obj\Debug\netcoreapp3.1\StringCalculator.AssemblyInfoInputs.cache
+C:\Users\wassi\Documents\Visual Studio 2019\Projects\StringCalculator\obj\Debug\netcoreapp3.1\StringCalculator.AssemblyInfo.cs
+C:\Users\wassi\Documents\Visual Studio 2019\Projects\StringCalculator\obj\Debug\netcoreapp3.1\StringCalculator.dll
+C:\Users\wassi\Documents\Visual Studio 2019\Projects\StringCalculator\obj\Debug\netcoreapp3.1\StringCalculator.pdb
+C:\Users\wassi\Documents\Visual Studio 2019\Projects\StringCalculator\obj\Debug\netcoreapp3.1\StringCalculator.genruntimeconfig.cache
