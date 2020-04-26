@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\wassi\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Wassim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wassi\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\BL\\BL.csproj",
+      "projectUniqueName": "C:\\Users\\Wassim\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "C:\\Users\\wassi\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\BL\\BL.csproj",
-      "packagesPath": "C:\\Users\\wassi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wassi\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\BL\\obj\\",
+      "projectPath": "C:\\Users\\Wassim\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\BL\\BL.csproj",
+      "packagesPath": "C:\\Users\\Wassim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Wassim\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\BL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\wassi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Wassim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -27,23 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wassi\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Wassim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wassi\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\StringCalculator\\StringCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\Wassim\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\StringCalculator\\StringCalculator.csproj",
       "projectName": "StringCalculator",
-      "projectPath": "C:\\Users\\wassi\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\StringCalculator\\StringCalculator.csproj",
-      "packagesPath": "C:\\Users\\wassi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wassi\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\StringCalculator\\obj\\",
+      "projectPath": "C:\\Users\\Wassim\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\StringCalculator\\StringCalculator.csproj",
+      "packagesPath": "C:\\Users\\Wassim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Wassim\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\StringCalculator\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\wassi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Wassim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -56,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\wassi\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\wassi\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\BL\\BL.csproj"
+            "C:\\Users\\Wassim\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\Wassim\\Documents\\Visual Studio 2019\\Projects\\Sogeti\\StringCalculator\\BL\\BL.csproj"
             }
           }
         }
