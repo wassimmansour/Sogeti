@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 
 namespace BL.Tests
 {
@@ -67,6 +68,62 @@ namespace BL.Tests
 			int actual = Calculator.Add(numbers);
 
 			Assert.AreEqual(expected, actual);
+		}
+
+		[Test]
+		[Order(6)]
+		public void MulipleNumbersWithOneCustomDelimiter()
+		{
+			string numbers = "//**\n11**22**303";
+
+			int expected = 336;
+
+			int actual = Calculator.Add(numbers);
+
+			Assert.AreEqual(expected, actual);
+		}
+
+		[Test]
+		[Order(7)]
+		public void MulipleNumbersWithMultipleCustomDelimiters()
+		{
+			string numbers = "//[**][^^]\n11**22^^303";
+
+			int expected = 336;
+
+			int actual = Calculator.Add(numbers);
+
+			Assert.AreEqual(expected, actual);
+		}
+
+		[Test]
+		[Order(8)]
+		public void MulipleNumbersWithNumbersLargerThan1000()
+		{
+			string numbers = "//[**][^^]\n11**2200^^303";
+
+			int expected = 314;
+
+			int actual = Calculator.Add(numbers);
+
+			Assert.AreEqual(expected, actual);
+		}
+
+
+		
+
+		[Test]
+		[Order(9)]
+		public void MulipleNumbersWithNegativeNumbers()
+		{
+			Assert.Throws<ArgumentException>(_MulipleNumbersWithNegativeNumbers, "Negatives not allowed. -22, -44");
+		}
+
+		private void _MulipleNumbersWithNegativeNumbers()
+		{
+			string numbers = "//[**][^^]\n11**-22^^303**-44";
+
+			int actual = Calculator.Add(numbers);
 		}
 	}
 }
