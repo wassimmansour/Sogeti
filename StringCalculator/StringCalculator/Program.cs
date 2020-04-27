@@ -7,12 +7,31 @@ namespace StringCalculator
 	{
 		static void Main(string[] args)
 		{
-			string numbers = "1,3";
-			int result = Calculator.Add(numbers);
+			ConsoleKeyInfo key = new ConsoleKeyInfo();
+			do
+			{
+				Console.WriteLine("Enter delimiters:");
+				string delimitersString = Console.ReadLine();
 
-			Console.WriteLine($"result of adding {numbers} is {result}.");
+				Console.WriteLine("Enter numbers string:");
+				string numbersString = Console.ReadLine();
+				
+				int result = 0;
+				try
+				{
+					result = Calculator.Add(delimitersString + "\n" + numbersString);
+					Console.WriteLine($"result of adding {numbersString} is {result}.");
+				}
+				catch(Exception ex)
+				{
+					Console.WriteLine(ex.Message);
+				}
 
-			Console.ReadKey();
+				Console.WriteLine("Press enter to repeat. or q to quit.");
+
+				key = Console.ReadKey();
+			} 
+			while (key.KeyChar != 'q');
 		}
 	}
 }

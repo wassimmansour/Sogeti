@@ -87,9 +87,9 @@ namespace BL.Tests
 		[Order(7)]
 		public void MulipleNumbersWithMultipleCustomDelimiters()
 		{
-			string numbers = "//[**][^^][&&]\n11**22^^303&&123";
+			string numbers = "//[**][^^][&&]\n11**22^^303&&123,5";
 
-			int expected = 459;
+			int expected = 464;
 
 			int actual = Calculator.Add(numbers);
 

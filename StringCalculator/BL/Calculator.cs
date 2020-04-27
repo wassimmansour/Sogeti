@@ -67,11 +67,11 @@ namespace BL
 
 				if (delimiterString.Contains("["))
 				{
-					return new string(delimiterString.Skip(1).SkipLast(1).ToArray()).Split("][");
+					return new string(delimiterString.Skip(1).SkipLast(1).ToArray()).Split("][").Append(",").Append("\n");
 				}
 				else
 				{
-					return new string[] { delimiterString };
+					return new string[] { delimiterString, "," , "\n"};
 				}
 			}
 			else
