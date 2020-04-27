@@ -87,9 +87,9 @@ namespace BL.Tests
 		[Order(7)]
 		public void MulipleNumbersWithMultipleCustomDelimiters()
 		{
-			string numbers = "//[**][^^]\n11**22^^303";
+			string numbers = "//[**][^^][&&]\n11**22^^303&&123";
 
-			int expected = 336;
+			int expected = 459;
 
 			int actual = Calculator.Add(numbers);
 
@@ -100,17 +100,14 @@ namespace BL.Tests
 		[Order(8)]
 		public void MulipleNumbersWithNumbersLargerThan1000()
 		{
-			string numbers = "//[**][^^]\n11**2200^^303";
+			string numbers = "//[**][^^]\n11**2200^^3203^^123";
 
-			int expected = 314;
+			int expected = 134;
 
 			int actual = Calculator.Add(numbers);
 
 			Assert.AreEqual(expected, actual);
 		}
-
-
-		
 
 		[Test]
 		[Order(9)]
