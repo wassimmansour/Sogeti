@@ -8,10 +8,12 @@ namespace BL
 	internal class NumbersParser
 	{
 		private readonly string numbersString;
+		private DelimiterParserFactory delimiterParserFactory;
 		
-		internal NumbersParser(string numbersString)
+		internal NumbersParser(string numbersString, DelimiterParserFactory delimiterParserFactory)
 		{
 			this.numbersString = numbersString;
+			this.delimiterParserFactory = delimiterParserFactory;
 		}
 
 		internal IEnumerable<int> GetNumbers()
@@ -21,14 +23,15 @@ namespace BL
 				return new List<int>() { 0 };
 			}
 
-			var (delimiters, strippedNumbersString) = new Delimiter(numbersString).SplitDelimitersAndNumbers();
+			DelimiterParser delimiterParser = delimiterParserFactory.CreateDelimiterParser();
+			var (delimiters, numbers) = delimiterParser.SplitDelimitersAndNumbers(numbersString);
 
-			var splitNumbers = SplitNumbers(strippedNumbersString, delimiters);
+			var splitNumbers = SplitNumbers(delimiters, numbers);
 
 			return ParseSplitNumbers(splitNumbers);
 		}
 
-		private List<string> SplitNumbers(string strippedNumbersString, IEnumerable<string> delimiters)
+		private List<string> SplitNumbers(IEnumerable<string> delimiters, string strippedNumbersString)
 		{
 			List<string> numbersStrings = new List<string>() { strippedNumbersString };
 			foreach (string delimiter in delimiters)
