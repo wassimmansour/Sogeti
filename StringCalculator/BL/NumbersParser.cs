@@ -8,12 +8,12 @@ namespace BL
 	internal class NumbersParser
 	{
 		private readonly string numbersString;
-		private DelimiterParserFactory delimiterParserFactory;
+		private DelimiterParser delimiterParser;
 		
-		internal NumbersParser(string numbersString, DelimiterParserFactory delimiterParserFactory)
+		internal NumbersParser(string numbersString, DelimiterParser delimiterParser)
 		{
 			this.numbersString = numbersString;
-			this.delimiterParserFactory = delimiterParserFactory;
+			this.delimiterParser = delimiterParser;
 		}
 
 		internal IEnumerable<int> GetNumbers()
@@ -23,7 +23,6 @@ namespace BL
 				return new List<int>() { 0 };
 			}
 
-			DelimiterParser delimiterParser = delimiterParserFactory.CreateDelimiterParser();
 			var (delimiters, numbers) = delimiterParser.SplitDelimitersAndNumbers(numbersString);
 
 			var splitNumbers = SplitNumbers(delimiters, numbers);

@@ -9,17 +9,9 @@ namespace BL
 	{
 		public static int Add(string numbersString)
 		{
-			DelimiterParserFactory factory;
-			if (numbersString?.StartsWith("//") ?? false)
-			{
-				factory = new CustomDelimiterParserFactory();
-			}
-			else
-			{
-				factory = new DefaultDelimiterParserFactory();
-			}
+			DelimiterParser delimiter = DelimiterParserFactory.CreateDelimiterParser(numbersString);
 
-			IEnumerable<int> numbersArray = new NumbersParser(numbersString?.Trim(), factory).GetNumbers();
+			IEnumerable<int> numbersArray = new NumbersParser(numbersString?.Trim(), delimiter).GetNumbers();
 
 			return numbersArray.Sum();
 		}

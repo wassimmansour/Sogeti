@@ -4,8 +4,18 @@ using System.Text;
 
 namespace BL
 {
-	internal abstract class DelimiterParserFactory
+	internal class DelimiterParserFactory
 	{
-		internal abstract DelimiterParser CreateDelimiterParser();
+		internal static DelimiterParser CreateDelimiterParser(string numbersString)
+		{
+			if (numbersString?.StartsWith("//") ?? false)
+			{
+				return new CustomDelimiterParserImp();
+			}
+			else
+			{
+				return new DefaultDelimiterParserImp();
+			}
+		}
 	}
 }
