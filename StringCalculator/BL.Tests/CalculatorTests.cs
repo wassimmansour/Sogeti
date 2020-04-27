@@ -6,6 +6,19 @@ namespace BL.Tests
 	public class CalculatorTests
 	{
 		[Test]
+		[Order(0)]
+		public void Null()
+		{
+			string numbers = null;
+
+			int expected = 0;
+
+			int actual = Calculator.Add(numbers);
+
+			Assert.AreEqual(expected, actual);
+		}
+
+		[Test]
 		[Order(1)]
 		public void EmptyString()
 		{
