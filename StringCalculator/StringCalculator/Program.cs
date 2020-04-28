@@ -16,10 +16,9 @@ namespace StringCalculator
 				Console.WriteLine("Enter numbers string:");
 				string numbersString = Console.ReadLine();
 				
-				int result = 0;
 				try
 				{
-					result = Calculator.Add(delimitersString + "\n" + numbersString);
+					int result = Calculator.Add(delimitersString + "\n" + numbersString);
 					Console.WriteLine($"result of adding {numbersString} is {result}.");
 				}
 				catch(Exception ex)
