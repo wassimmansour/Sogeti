@@ -7,7 +7,7 @@ namespace StringCalculator
 	{
 		static void Main(string[] args)
 		{
-			ConsoleKeyInfo key = new ConsoleKeyInfo();
+			ConsoleKeyInfo key;
 			do
 			{
 				Console.WriteLine("Enter delimiters:");
@@ -15,13 +15,13 @@ namespace StringCalculator
 
 				Console.WriteLine("Enter numbers string:");
 				string numbersString = Console.ReadLine();
-				
+
 				try
 				{
 					int result = Calculator.Add(delimitersString + "\n" + numbersString);
 					Console.WriteLine($"result of adding {numbersString} is {result}.");
 				}
-				catch(Exception ex)
+				catch (Exception ex)
 				{
 					Console.WriteLine(ex.Message);
 				}
@@ -29,7 +29,7 @@ namespace StringCalculator
 				Console.WriteLine("Press enter to repeat. or q to quit.");
 
 				key = Console.ReadKey();
-			} 
+			}
 			while (key.KeyChar != 'q');
 		}
 	}
