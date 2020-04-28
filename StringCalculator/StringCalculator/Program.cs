@@ -16,6 +16,7 @@ namespace StringCalculator
 				Console.WriteLine("Enter numbers string:");
 				string numbersString = Console.ReadLine();
 				
+				int result = 0;
 				try
 				{
 					result = Calculator.Add(delimitersString + "\n" + numbersString);
