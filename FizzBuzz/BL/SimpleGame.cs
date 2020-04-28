@@ -1,25 +1,29 @@
 ﻿using System.Linq;
 using System.Collections.Generic;
-using System.Text;
 
 namespace BL
 {
 	public class SimpleGame
 	{
-		public string Play(int number)
+		public string Play(int number, SortedDictionary<int, string> substitutions = null)
 		{
 			List<string> result = new List<string>();
-			if (number % 3 == 0)
+
+			if(substitutions == null)
 			{
-				result.Add("Fizz");
+				substitutions = new SortedDictionary<int, string>();
 			}
-			if (number % 5 == 0)
+			
+			substitutions.Add(3, "Fizz");
+			substitutions.Add(5, "Buzz");
+			substitutions.Add(7, "Pop");
+
+			foreach (var substitution in substitutions)
 			{
-				result.Add("Buzz");
-			}
-			if (number % 7 == 0)
-			{
-				result.Add("Pop");
+				if(number % substitution.Key == 0)
+				{
+					result.Add(substitution.Value);
+				}
 			}
 
 			if (result.Count() > 0)

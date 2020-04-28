@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System.Collections.Generic;
 
 namespace BL.Tests
 {
@@ -104,6 +105,22 @@ namespace BL.Tests
 
 			SimpleGame game = new SimpleGame();
 			var actual = game.Play(number);
+
+			Assert.AreEqual(expected, actual);
+		}
+
+		[Test]
+		public void CustomSubstitution()
+		{
+			SortedDictionary<int, string> substitutions = new SortedDictionary<int, string>();
+			substitutions.Add(2, "Fuzz");
+
+			var number = 210;
+
+			var expected = "Fuzz Fizz Buzz Pop";
+
+			SimpleGame game = new SimpleGame();
+			var actual = game.Play(number, substitutions);
 
 			Assert.AreEqual(expected, actual);
 		}
