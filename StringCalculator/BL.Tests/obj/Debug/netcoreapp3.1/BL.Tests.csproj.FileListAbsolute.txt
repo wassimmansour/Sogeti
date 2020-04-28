@@ -187,10 +187,10 @@ C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL.Tests\bin\Debug\netcoreapp3.1\BL.dll
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL.Tests\bin\Debug\netcoreapp3.1\BL.pdb
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL.Tests\obj\Debug\netcoreapp3.1\BL.Tests.csprojAssemblyReference.cache
+C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL.Tests\obj\Debug\netcoreapp3.1\BL.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL.Tests\obj\Debug\netcoreapp3.1\BL.Tests.AssemblyInfoInputs.cache
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL.Tests\obj\Debug\netcoreapp3.1\BL.Tests.AssemblyInfo.cs
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL.Tests\obj\Debug\netcoreapp3.1\BL.Tests.csproj.CopyComplete
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL.Tests\obj\Debug\netcoreapp3.1\BL.Tests.dll
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL.Tests\obj\Debug\netcoreapp3.1\BL.Tests.pdb
-C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL.Tests\obj\Debug\netcoreapp3.1\BL.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL.Tests\obj\Debug\netcoreapp3.1\BL.Tests.genruntimeconfig.cache

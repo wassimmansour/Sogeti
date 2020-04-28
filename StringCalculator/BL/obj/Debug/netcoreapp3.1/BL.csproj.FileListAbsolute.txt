@@ -27,9 +27,9 @@ C:\Users\wassi\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL\
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL\bin\Debug\netcoreapp3.1\BL.deps.json
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL\bin\Debug\netcoreapp3.1\BL.dll
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL\bin\Debug\netcoreapp3.1\BL.pdb
-C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL\obj\Debug\netcoreapp3.1\BL.csprojAssemblyReference.cache
+C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL\obj\Debug\netcoreapp3.1\BL.csproj.CoreCompileInputs.cache
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfoInputs.cache
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfo.cs
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL\obj\Debug\netcoreapp3.1\BL.dll
 C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL\obj\Debug\netcoreapp3.1\BL.pdb
-C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL\obj\Debug\netcoreapp3.1\BL.csproj.CoreCompileInputs.cache
+C:\Users\Wassim\Documents\Visual Studio 2019\Projects\Sogeti\StringCalculator\BL\obj\Debug\netcoreapp3.1\BL.csprojAssemblyReference.cache
