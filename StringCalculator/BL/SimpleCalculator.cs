@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace BL
 {
@@ -21,7 +20,6 @@ namespace BL
 			IEnumerable<int> numbersArray = GetNumbers(strippedNumbersString, delimiters);
 
 			return numbersArray.Sum();
-
 		}
 
 		private static IEnumerable<string> GetDelimiters(string numbersString)

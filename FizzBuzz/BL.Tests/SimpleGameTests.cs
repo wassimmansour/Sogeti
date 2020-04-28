@@ -12,8 +12,7 @@ namespace BL.Tests
 
 			var expected = "1";
 
-			SimpleGame game = new SimpleGame();
-			var actual = game.Play(number);
+			var actual = SimpleGame.Play(number);
 
 			Assert.AreEqual(expected, actual);
 		}
@@ -25,8 +24,7 @@ namespace BL.Tests
 
 			var expected = "Fizz";
 
-			SimpleGame game = new SimpleGame();
-			var actual = game.Play(number);
+			var actual = SimpleGame.Play(number);
 
 			Assert.AreEqual(expected, actual);
 		}
@@ -38,8 +36,7 @@ namespace BL.Tests
 
 			var expected = "Buzz";
 
-			SimpleGame game = new SimpleGame();
-			var actual = game.Play(number);
+			var actual = SimpleGame.Play(number);
 
 			Assert.AreEqual(expected, actual);
 		}
@@ -51,8 +48,7 @@ namespace BL.Tests
 
 			var expected = "Fizz Buzz";
 
-			SimpleGame game = new SimpleGame();
-			var actual = game.Play(number);
+			var actual = SimpleGame.Play(number);
 
 			Assert.AreEqual(expected, actual);
 		}
@@ -64,8 +60,7 @@ namespace BL.Tests
 
 			var expected = "Pop";
 
-			SimpleGame game = new SimpleGame();
-			var actual = game.Play(number);
+			var actual = SimpleGame.Play(number);
 
 			Assert.AreEqual(expected, actual);
 		}
@@ -77,8 +72,7 @@ namespace BL.Tests
 
 			var expected = "Fizz Pop";
 
-			SimpleGame game = new SimpleGame();
-			var actual = game.Play(number);
+			var actual = SimpleGame.Play(number);
 
 			Assert.AreEqual(expected, actual);
 		}
@@ -90,8 +84,7 @@ namespace BL.Tests
 
 			var expected = "Buzz Pop";
 
-			SimpleGame game = new SimpleGame();
-			var actual = game.Play(number);
+			var actual = SimpleGame.Play(number);
 
 			Assert.AreEqual(expected, actual);
 		}
@@ -103,8 +96,7 @@ namespace BL.Tests
 
 			var expected = "Fizz Buzz Pop";
 
-			SimpleGame game = new SimpleGame();
-			var actual = game.Play(number);
+			var actual = SimpleGame.Play(number);
 
 			Assert.AreEqual(expected, actual);
 		}
@@ -112,15 +104,13 @@ namespace BL.Tests
 		[Test]
 		public void CustomSubstitution()
 		{
-			SortedDictionary<int, string> substitutions = new SortedDictionary<int, string>();
-			substitutions.Add(2, "Fuzz");
+			string substitutionsString = "2:Fuzz";
 
 			var number = 210;
 
 			var expected = "Fuzz Fizz Buzz Pop";
 
-			SimpleGame game = new SimpleGame();
-			var actual = game.Play(number, substitutions);
+			var actual = SimpleGame.Play(number, substitutionsString);
 
 			Assert.AreEqual(expected, actual);
 		}
