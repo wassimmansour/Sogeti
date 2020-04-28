@@ -5,7 +5,7 @@ namespace BL
 {
 	public class SimpleGame
 	{
-		public string Play(int number, SortedDictionary<int, string> substitutions = null)
+		public static string Play(int number, SortedDictionary<int, string> substitutions = null)
 		{
 			List<string> result = new List<string>();
 
