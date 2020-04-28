@@ -9,7 +9,7 @@ namespace BL
 	{
 		public static int Add(string numbersString)
 		{
-			DelimiterParser delimiter = DelimiterParserFactory.CreateDelimiterParser(numbersString);
+			DelimiterParser delimiter = DelimiterParserFactory.CreateDelimiterParser(numbersString?.Trim());
 
 			IEnumerable<int> numbersArray = new NumbersParser(numbersString?.Trim(), delimiter).GetNumbers();
 
